@@ -1,0 +1,135 @@
+.About {
+    width: 100vw;
+    height: 100vh;
+    color: var(--textColor);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    z-index: 40;
+}
+
+.About__Col1,
+.About__Col2 {
+    width: 50vw;
+    height: 100vh;
+    padding: 0 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.About__Col1 {
+    background-color: var(--GrayDark);
+}
+
+.About__Col2 {
+    background-color: var(--blueLight);
+}
+
+.About__Title {
+    font-size: 300%;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1vw;
+    color: var(--textColorBlue);
+}
+
+.About__Title2 {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1vw;
+    color: var(--GrayDark);
+}
+
+.Logo__Images {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vw;
+    row-gap: 5vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.Logo {
+    width: 5vw;
+    height: 5vw;
+    object-fit: contain;
+    filter: drop-shadow(10px 10px 10px #1f2833c9);
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    z-index: 60;
+}
+
+.Logo:hover {
+    transform: translateY(-10px)
+}
+
+.L__Div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.L__Div p {
+    text-align: center;
+    color: var(--GrayDark);
+    font-size: small;
+    font-weight: bold;
+    opacity: 0;
+    vertical-align: 20px;
+    transition: 0.5s;
+    margin: 0;
+    margin-top: -15px;
+    position: relative;
+    z-index: 50;
+}
+
+.L__Div:hover>p {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .About__Col1 {
+        padding: 0 2rem;
+    }
+
+    .About__Col2 {
+        padding: 0 2rem;
+    }
+
+    .About__Title,
+    .About__Title2 {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .About {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .About__Col1 {
+        height: auto;
+        width: calc(100vw - 4rem);
+        padding: 2rem 2rem;
+    }
+
+    .About__Col2 {
+        height: 50vh;
+        width: calc(100vw - 4rem);
+    }
+
+    .Logo {
+        width: 50px;
+        height: 50px;
+    }
+}
