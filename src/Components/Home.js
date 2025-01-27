@@ -2,7 +2,7 @@ import React from 'react';
 import "../Styles/Home.css";
 import { ImLinkedin } from "react-icons/im";
 import { BsGithub } from "react-icons/bs";
-import logo from '../Images/logo.svg';
+import logo from '../Images/Google Search.gif';
 import Typewriter from "typewriter-effect";
 
 function Home() {

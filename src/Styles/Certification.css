@@ -1,7 +1,8 @@
 .Project {
     overflow: hidden;
-    background-color: var(--black);
+    /* background-color: var(--black); */
     padding: 6rem;
+    position: relative;
 }
 
 .Project__Title {

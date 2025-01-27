@@ -7,6 +7,8 @@
     z-index: 100;
     padding: 0 6rem;
     transition: 0.3s ease-in-out;
+    animation: fadeInDown;
+    animation-duration: 0.5s;
 }
 
 .Navbar__Title {
