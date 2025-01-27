@@ -16,8 +16,7 @@ function Navbar() {
     const [navColor, setnavColor] = useState("transparent");
     const [color, setColor] = useState("#C5C6C7")
     const listenScrollEvent = () => {
-        // window.scrollY > 10 ? setnavColor("#66fcf2cd") : setnavColor("transparent");
-        window.scrollY > 10 ? setnavColor("#a3e635") : setnavColor("transparent");
+        window.scrollY > 10 ? setnavColor("#66fcf2cd") : setnavColor("transparent");
         window.scrollY > 10 ? setColor("#1F2833") : setColor("#C5C6C7");
     };
     useEffect(() => {

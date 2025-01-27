@@ -1,8 +1,7 @@
 :root {
   --black: #000000;
   --GrayDark: #1F2833;
-  /* --textColorBlue: #66FCF1; */
-  --textColorBlue: rgb(163 230 53);
+  --textColorBlue: #66FCF1;
   --textColor: #C5C6C7;
   --blueLight: #45A29E;
 }
