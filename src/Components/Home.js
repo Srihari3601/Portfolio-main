@@ -23,13 +23,13 @@ function Home() {
                             }}
                             onInit={(typewriter) => {
                                 typewriter
-                                .typeString('<strong><span style="color:#fc6671;">Front-End Developer</span></strong>')
+                                .typeString('<strong><span style="color:#bcfc66;">Front-End Developer</span></strong>')
                                 .pauseFor(1000)
                                 .deleteAll()
-                                .typeString('<strong><span style="color:#a666fc;">Web developer</span></strong>')
+                                .typeString('<strong><span style="color:#fc6671;">Web developer</span></strong>')
                                 .pauseFor(1000)
                                 .deleteAll()
-                                .typeString('<strong><span style="color:#bcfc66">ReactJS Developer</span></strong>')
+                                .typeString('<strong><span style="color:#a666fc">ReactJS Developer</span></strong>')
                                 .pauseFor(1000)
                                 .deleteAll()
                                 .start();
