@@ -85,7 +85,7 @@
 
 .Home__Icon:hover {
     transform: scale(1.2);
-    color: var(--textColorBlue);
+    color: white;
 }
 
 .Resume {
