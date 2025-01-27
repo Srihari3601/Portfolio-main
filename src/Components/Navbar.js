@@ -1,8 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../Styles/Navbar.css";
-import * as motion from "motion/react-client"
-import 'animate.css';
 
 function Navbar() {
 
@@ -29,7 +27,7 @@ function Navbar() {
     }, []);
 
     return (
-        <div className="Header animate__animated animate__fadeInDownBig" id="Header"
+        <div className="Header" id="Header"
             style={{
                 backgroundColor: navColor,
                 color: color
@@ -48,24 +46,19 @@ function Navbar() {
                     className="Navbar__Link2"><p className="Navbar__LinkText">PROJECTS</p></div>
                 <div onClick={() => { showNavbar(); document.getElementById('Contact').scrollIntoView() }}
                     className="Navbar__Link5"><p className="Navbar__LinkText">CONTACT</p></div>
-                <motion.button
-                    whileHover={{ scale: 1.2 }}
-                    whileTap={{ scale: 0.8 }}
+                <button
                     className="Navbar__Button Navbar__CloseButton"
                     onClick={showNavbar}>
                     <FaTimes />
-                </motion.button>
+                </button>
             </nav>
-            <motion.button
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.8 }}
-                className="Navbar__Button"
+            <button className="Navbar__Button"
                 style={{
                     color: color
                 }}
                 onClick={showNavbar}>
                 <FaBars />
-            </motion.button>
+            </button>
         </div>
     );
 }

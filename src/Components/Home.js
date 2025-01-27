@@ -36,11 +36,11 @@ function Home() {
                             }}
                         />
                     </div>
-                <div className='Home__Icons'>
+                <div className='Home__Icons animate__animated animate__delay-2s animate__fadeInUp'>
                     <BsGithub className='Home__Icon' onClick={() => { window.location.assign("https://github.com/Srihari3601") }} />
                     <ImLinkedin className='Home__Icon' onClick={() => { window.location.assign("https://www.linkedin.com/in/sriharigcfrontendweb") }} />
                 </div>
-                <button className='Resume'
+                <button className='Resume animate__animated animate__delay-3s animate__fadeInUp'
                     onClick={() => { window.location.assign("https://drive.google.com/file/d/14z4K1A2mrLkEttwwkx-RwMTbhWvxWsEA/view?usp=sharing") }}>
                     View Resume
                 </button>
