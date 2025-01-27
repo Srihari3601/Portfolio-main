@@ -43,6 +43,7 @@
 .Home__Greet {
     animation: fadeInLeft;
     animation-duration: .5s;
+    color: white;
 }
 
 .Home__Text {

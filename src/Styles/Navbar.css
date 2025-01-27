@@ -18,6 +18,11 @@
     cursor: pointer;
 }
 
+.Navbar__Title:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
 .Navbar__Link1,
 .Navbar__Link2,
 .Navbar__Link3,
