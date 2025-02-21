@@ -44,7 +44,7 @@ function Home() {
                     <ImLinkedin className='Home__Icon' onClick={() => { window.location.assign("https://www.linkedin.com/in/sriharigcfrontendweb") }} />
                 </div>
                 <button className='Resume animate__animated animate__delay-3s animate__fadeInUp'
-                    onClick={() => { window.location.assign("https://drive.google.com/file/d/14z4K1A2mrLkEttwwkx-RwMTbhWvxWsEA/view?usp=sharing") }}>
+                    onClick={() => { window.location.assign("https://shorturl.at/4Taip") }}>
                     View Resume
                 </button>
             </div>
